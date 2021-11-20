@@ -1,9 +1,40 @@
-# COMP 4710 Project
+
+# Bus Deley Prediction with apriori and ML
+
+Abstract:
+
+Public transportation is essential for the public’s daily life. For passengers, an
+accurate transportation prediction, which means less bus waiting, and transit time. This
+leads to maximize their time utilization. Also, it is critical for bus companies, and accuracy
+prediction will help all them quick aware of the current states of the bus running. By devoting
+more bus, or short the bus departure gap, the delay of the bus could be minimized, which
+allows them provided more quality servers to the public. There are lots of researches that
+digs into this area, which focuses on the relationship between the delay time and time
+sections of a day (e.g., morning, afternoon, night), route and stations. However, in order to
+reach predict an accurate bus delay, this is not enough. In this paper, we would go beyond
+the conditions discussed above. and exam another important factor that causes delays - the
+weather condition. specifically, This approach uses open data from government open portal
+such as the historical bus delay datasheets, and historical weather datasheets. as the
+source. then generate a large datasheet by joining that two datasheets. then apply different
+data mining techniques on these data sheets to discover the relationships and frequent
+patterns. to achieve this, we used a Apriority algorithm as well as deep learning algorithm is
+designed to evaluate those frequent patterns and examine the relationship. base this.
+conclude the reason that lead to delay, also the data unbalancing issues that cause hard in
+form a correct module for prediction . The result is compared to the government open portal
+provided delay data as well as weather conditions and shows the effectiveness and
+correctness of our approach.
+
+
+
 Author:
     Li Borui
     Li Qingyuan
     Hu Future
     Xie Xiaojian
+    
+    
+    
+    
     
 ## weather data:
     https://climate.weather.gc.ca/
